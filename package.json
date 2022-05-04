@@ -1,0 +1,60 @@
+{
+  "name": "@emergency/plan-management",
+  "version": "2.0.0",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build ./src/main.build.js",
+    "build:prod": "vue-cli-service build ./src/main.build.js --mode production",
+    "build:report": "vue-cli-service build ./src/main.build.js --report && node publishApp.js",
+    "lint": "vue-cli-service lint"
+  },
+  "files": [
+    "dist",
+    "app.config.json"
+  ],
+  "dependencies": {
+    "@emergency/common-map": "^1.3.2",
+    "@emergency/common-query-lib": "^1.3.4",
+    "@va/bill-main": "^1.7.1",
+    "@va/biz-common": "^1.8.1",
+    "@va/biz-core": "^1.2.0",
+    "@va/el-i-table": "^1.0.0",
+    "@va/el-i-tree": "^1.0.0",
+    "@va/elx-table": "^1.2.0",
+    "echarts": "^5.3.1",
+    "element-ui": "^2.15.6",
+    "jquery": "^3.6.0",
+    "sortablejs": "^1.15.0",
+    "xe-utils": "^3.5.4"
+  },
+  "devDependencies": {
+    "@nvwa/icon": "^0.0.16",
+    "@vue/cli-plugin-babel": "4.0.5",
+    "@vue/cli-plugin-eslint": "4.0.5",
+    "@vue/cli-service": "4.0.5",
+    "@vue/eslint-config-standard": "4.0.0",
+    "babel-eslint": "^10.0.1",
+    "core-js": "^3.4.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "iviewex": "^3.0.8",
+    "nr.os.js": "^2.0.0-beta.23",
+    "nros-config-wrapper": "^1.0.2",
+    "sass": "^1.51.0",
+    "sass-loader": "^8.0.2",
+    "view-design": "^4.3.2",
+    "vue": "2.6.12",
+    "vue-template-compiler": "2.6.12",
+    "vuex": "^3.1.1"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

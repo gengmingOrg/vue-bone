@@ -1,0 +1,53 @@
+{
+  "name": "plan-management",
+  "title": "预案管理",
+  "author": "gengming",
+  "keywords": "预案管理",
+  "company": "久其软件",
+  "type": false,
+  "version": "v0.1",
+  "license": "",
+  "description": "",
+  "icon":"icon-_ZSYshujuluru",
+  "data": {
+    "static": [
+      {"name": "vuex", "url": "static/lib/vuex.min.js"},
+      {"name":"#NvwaIcon", "url": "output/@nvwa/icon/iconfont.css"},
+      {"name":"#VaIcon", "url": "output/@va/icon/iconfont.css"},
+      {"name":"#VaCommonCss", "url": "output/@nvwa/component-va/common-css.js"},
+      {"name":"#XEUtils", "url": "output/@nvwa/component-va/xe-utils.js"},
+      {"name":"#Sortable", "url": "output/@nvwa/component-va/sortable.js"},
+      {"name":"#VaApiToolkit", "url": "output/@nvwa/component-va/api-toolkit.js"},
+      {"name":"#VaToolbar", "url": "output/@nvwa/component-va/toolbar.js"},
+      {"name":"#VaIZtree", "url": "output/@nvwa/component-va/i-ztree.js"},
+      {"name":"#VaElITree", "url": "output/@nvwa/component-va/el-i-tree.js"},
+      {"name":"#VaElITable", "url": "output/@nvwa/component-va/el-i-table.js"},
+      {"name":"#VaElxTable", "url": "output/@nvwa/component-va/elx-table.js"},
+      {"name":"#VaBasedataSelect", "url": "output/@nvwa/component-va/basedata-select.js"},
+      {"name":"#VaBasedataSelectCross", "url": "output/@nvwa/component-va/basedata-select-cross.js"},
+      {"name":"#VaCitySelect", "url": "output/@nvwa/component-va/city-select.js"},
+      {"name":"#VaEnumSelect", "url": "output/@nvwa/component-va/enum-select.js"},
+      {"name":"#VaUserSelect", "url": "output/@nvwa/component-va/user-select.js"},
+      {"name":"#VaCheckTree", "url": "output/@nvwa/component-va/check-tree.js"},
+      {"name":"#BizCore", "url": "output/@va/biz-app/lib/va-biz-core.js"},
+      {"name":"#VaBizCommon", "url": "output/@va/biz-app/lib/va-biz-common.js"},
+      {"name":"#VaBillMain", "url": "output/@va/biz-app/lib/va-bill-main.js"},
+      {"name":"#VaCollectPlugin", "url": "output/@va/biz-app/lib/va-collect-plugin.js"}
+    ],
+    "app": {
+      "component": ["dist/app.bundle.js"]
+    },
+    "config": [
+      {
+        "title": "你的配置",
+        "key": "your_config",
+        "type": "array",
+        "dataSource": {
+          "api": "/api/v1/dataentry/allTaskGroup",
+          "titleColumn": "title",
+          "valueColumn": "key"
+        }
+      }
+    ]
+  }
+}
