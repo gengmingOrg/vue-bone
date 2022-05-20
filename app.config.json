@@ -1,8 +1,8 @@
 {
-  "name": "plan-management",
-  "title": "预案管理",
+  "name": "decision-test",
+  "title": "测试测试公共组件",
   "author": "gengming",
-  "keywords": "预案管理",
+  "keywords": "首页",
   "company": "久其软件",
   "type": false,
   "version": "v0.1",
@@ -32,7 +32,10 @@
       {"name":"#BizCore", "url": "output/@va/biz-app/lib/va-biz-core.js"},
       {"name":"#VaBizCommon", "url": "output/@va/biz-app/lib/va-biz-common.js"},
       {"name":"#VaBillMain", "url": "output/@va/biz-app/lib/va-bill-main.js"},
-      {"name":"#VaCollectPlugin", "url": "output/@va/biz-app/lib/va-collect-plugin.js"}
+      {"name":"#VaCollectPlugin", "url": "output/@va/biz-app/lib/va-collect-plugin.js"},
+      {"name":"#EmCommonMap", "url": "output/@emergency/common-map/lib/em-common-map.js"},
+      {"name":"#VaIZTree", "url": "output/@nvwa/component-va/i-ztree.js"},
+      {"name":"#VaFieldEditor", "url": "output/@nvwa/component-va/field-editor.js"}
     ],
     "app": {
       "component": ["dist/app.bundle.js"]

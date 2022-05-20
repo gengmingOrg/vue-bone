@@ -5,8 +5,8 @@
 
 <script>
 // import Tree from './components/tree.vue';
-import index from "./views/index.vue";
-import "./assets/iconfont//iconfont.js";
+import index from "../../home-page/src/views/index.vue";
+import "../../home-page/src/assets/iconfont/iconfont.js";
 export default {
   name: "app",
   components: {
@@ -40,7 +40,7 @@ export default {
 }
 </style>
 <style type="text/css">
-@import "./assets/iconfont/iconfont.css";
+@import "../../home-page/src/assets/iconfont/iconfont.css";
 .icon {
   width: 1em;
   height: 1em;

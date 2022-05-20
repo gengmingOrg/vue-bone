@@ -36,7 +36,24 @@ var config = {
           '@va/billlist-main': 'VaBillListMain',
           '@va/todo-main': 'VaTodoMain',
           '@va/workflow-main': 'VaWorkflowMain',
-          '@va/meta-manage': 'VaMetaManage'
+          '@va/meta-manage': 'VaMetaManage',
+          '@emergency/common-map': 'EmCommonMap',
+          
+          'view-design': 'iview',
+          // 前置依赖
+          'sortablejs': 'Sortable',
+          'xe-utils': 'XEUtils',
+          // 部分基础组件, 按字母排序
+          '@va/api-toolkit': 'VaApiToolkit',
+          '@va/basedata-select': 'VaBasedataSelect',
+          '@va/common-css': 'VaCommonCss',
+          '@va/el-i-table': 'VaElITable',
+          '@va/el-i-tree': 'VaElITree',
+          '@va/elx-table': 'VaElxTable',
+          '@va/enum-select': 'VaEnumSelect',
+          '@va/field-editor': 'VaFieldEditor',
+          '@va/toolbar': 'VaToolbar',
+          '@va/user-select': 'VaUserSelect'
         }
     },
     devtool: devBuild ? 'eval-source-map' : 'none',
