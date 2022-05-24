@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "@emergency/common-map": "^2.0.17",
-    "@emergency/common-query-lib": "^1.3.4",
+    "@emergency/common-query-lib": "^1.4.1",
     "@va/biz-common": "^1.8.1",
     "@va/biz-core": "^1.2.0",
     "@va/el-i-table": "^1.0.0",
