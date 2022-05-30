@@ -1,6 +1,6 @@
 {
   "name": "@emergency/decision-test",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "main": "dist/app.bundle.js",
   "scripts": {
     "serve": "vue-cli-service serve",
