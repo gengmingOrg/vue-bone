@@ -5,7 +5,7 @@
 
 <script>
 // import Tree from './components/tree.vue';
-import index from "../../home-page/src/views/index.vue";
+// import index from "../../home-page/src/views/index.vue";
 import "../../home-page/src/assets/iconfont/iconfont.js";
 export default {
   name: "app",
